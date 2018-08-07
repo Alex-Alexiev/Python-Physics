@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 T = 10000 #ms
 A = 1 #m^2
 P = 1.225 #kg/m^3
-k = 1 #co-efficient of drag
+k = 0.01 #co-efficient of drag
 
 m = 1 #kg
 g = 9.8 #m/s^2
