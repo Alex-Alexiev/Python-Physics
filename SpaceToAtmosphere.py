@@ -29,9 +29,9 @@ v = 0
 plt.ylabel("Velocity")
 
 for t in range(0,T):
-    Fg = m*g
+    Fg = Mo*g
     Fd = -(A*P*k*(v**2))/2
-    a = ((Fg+Fd)/m)/1000
+    a = ((Fg+Fd)/Mo)/1000
     #print("Fg:",Fg, "Fd:",Fd, "a:",a,"v:",v) 
     v+=a
     if t%100 == 0:
