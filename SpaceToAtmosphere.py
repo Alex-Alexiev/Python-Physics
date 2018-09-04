@@ -7,7 +7,7 @@ T = 100000 #fall time ms
 p0 = 101.325 #sea level standard atmospheric pressure, 101.325 kPa
 t0 = 288.15 #sea level standard temperature, 288.15 K
 g = 9.80665 #earth-surface gravitational acceleration, 9.80665 m/s2
-L= 0.0065 #temperature lapse rate, 0.0065 K/m
+L= 0.0065 #temperature lapse rate, 0.0065 Kelvin/m
 R = 8.31447 #ideal (universal) gas constant, 8.31447 J/(mol·K)
 M = 0.0289644 #molar mass of dry air, 0.0289644 kg/mol
 
